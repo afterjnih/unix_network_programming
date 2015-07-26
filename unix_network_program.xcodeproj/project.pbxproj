@@ -53,6 +53,7 @@
 		EBFAAED11B5DB34B002D2F1D /* setup_server.c in Sources */ = {isa = PBXBuildFile; fileRef = EBFAAEC51B5DB34B002D2F1D /* setup_server.c */; };
 		EBFAAED21B5DB34B002D2F1D /* setup_server.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFAAEC61B5DB34B002D2F1D /* setup_server.o */; };
 		EBFAAED41B5DB3DF002D2F1D /* sessionman.c in Sources */ = {isa = PBXBuildFile; fileRef = EBFAAED31B5DB3DF002D2F1D /* sessionman.c */; };
+		EBFAAED61B64AD66002D2F1D /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = EBFAAED51B64AD66002D2F1D /* server.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -124,7 +125,8 @@
 		EBFAAEC41B5DB34B002D2F1D /* setup_mserver.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = setup_mserver.o; sourceTree = "<group>"; };
 		EBFAAEC51B5DB34B002D2F1D /* setup_server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = setup_server.c; sourceTree = "<group>"; };
 		EBFAAEC61B5DB34B002D2F1D /* setup_server.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = setup_server.o; sourceTree = "<group>"; };
-		EBFAAED31B5DB3DF002D2F1D /* sessionman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sessionman.c; sourceTree = "<group>"; };
+		EBFAAED31B5DB3DF002D2F1D /* sessionman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sessionman.c; path = ../sessionman.c; sourceTree = "<group>"; };
+		EBFAAED51B64AD66002D2F1D /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,7 +340,6 @@
 			isa = PBXGroup;
 			children = (
 				EBFAAEC81B5DB34B002D2F1D /* data */,
-				EBFAAED31B5DB3DF002D2F1D /* sessionman.c */,
 			);
 			path = race;
 			sourceTree = "<group>";
@@ -346,6 +347,8 @@
 		EBFAAEC81B5DB34B002D2F1D /* data */ = {
 			isa = PBXGroup;
 			children = (
+				EBFAAED31B5DB3DF002D2F1D /* sessionman.c */,
+				EBFAAED51B64AD66002D2F1D /* server.c */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				EB98FA0E1B5A1177001D612B /* server.c in Sources */,
 				EBFAAECF1B5DB34B002D2F1D /* setup_mserver.c in Sources */,
 				EB5B75E91B58FCD3003F4D97 /* main.c in Sources */,
+				EBFAAED61B64AD66002D2F1D /* server.c in Sources */,
 				EBFAAECB1B5DB34B002D2F1D /* Makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
