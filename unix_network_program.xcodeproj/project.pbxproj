@@ -117,6 +117,9 @@
 		EB98FA3E1B5B7E2D001D612B /* mylib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mylib.h; sourceTree = "<group>"; };
 		EB98FA3F1B5B7E4E001D612B /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		EBC7CED01B710E3E000E0B3A /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		EBC7CED21B711039000E0B3A /* sessionman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sessionman.h; sourceTree = "<group>"; };
+		EBC7CED31B7110BC000E0B3A /* race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = race.h; sourceTree = "<group>"; };
+		EBC7CED41B711204000E0B3A /* session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = session.h; sourceTree = "<group>"; };
 		EBFAAEBC1B5DB34B002D2F1D /* chop_newline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chop_newline.c; sourceTree = "<group>"; };
 		EBFAAEBD1B5DB34B002D2F1D /* chop_newline.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = chop_newline.o; sourceTree = "<group>"; };
 		EBFAAEBE1B5DB34B002D2F1D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
@@ -355,6 +358,9 @@
 				EBFAAED51B64AD66002D2F1D /* server.c */,
 				EBFAAED71B64B1E0002D2F1D /* session.c */,
 				EBC7CED01B710E3E000E0B3A /* client.c */,
+				EBC7CED21B711039000E0B3A /* sessionman.h */,
+				EBC7CED31B7110BC000E0B3A /* race.h */,
+				EBC7CED41B711204000E0B3A /* session.h */,
 			);
 			path = data;
 			sourceTree = "<group>";
