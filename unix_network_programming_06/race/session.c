@@ -33,7 +33,7 @@ static void send_my_data();
 static void del_all_locations();
 static void show_all_locations();
 static void recv_all_data();
-static void new_stage(int z);
+static int new_stage(int z);
 
 
 static void init_data();
@@ -55,7 +55,7 @@ void session_init(int s)
 	read(soc, buf, BUF_LENGTH);
 	printf(buf);
 	fgets(buf, BUF_LENGTH, stdin);
-	chop_newline(buf, BUF_LNEGTH);
+	chop_newline(buf, BUF_LENGTH);
 	
 	write(soc, buf, strlen(buf) + 1);
 	read(soc, buf, BUF_LENGTH);
@@ -134,16 +134,16 @@ static int get_my_location()
 		if(check(-1, 0) == 1)
 			temp[XPOS]--;
 		else
-			temp[DAMEGE]++;
+			temp[DAMAGE]++;
 		break;
 	case SOUTH:
 		if(check(0, 1) == 1)
 			temp[YPOS]--;
 		else
-			temp[DAMEGE]++;
+			temp[DAMAGE]++;
 		break;
 	case NORTH:
-		if(temp[YPOS]) == (char)1){
+		if(temp[YPOS] == (char)1){
 			temp[STAGE]++;
 			temp[YPOS] = (char)21;
 			if(new_stage((int) temp[STAGE]) == 0){
@@ -259,7 +259,7 @@ static void ending(int how)
 	wrefresh(win2);
 	
 	read(soc, g, GRADE_SIZE * num);
-	for(i = 0; i < num; i+){
+	for(i = 0; i < num; i++){
 		mvwprintw(win2, i + 3, 1, "[%d] %d: %s",
 							i + 1,
 							(int)g[i * GRADE_SIZE + ENTRYNUM],

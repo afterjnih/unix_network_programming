@@ -16,7 +16,7 @@
 
 static int soc[MAX_PLAYERS];
 static char name[MAX_PLAYERS][16];
-static char p[MAX_PLAYERA * PLAYER_SIZE];
+static char p[MAX_PLAYERS * PLAYER_SIZE];
 
 static fd_set mask;
 static fd_set readOk;
@@ -46,7 +46,7 @@ void enter(int i, int fd)
 	char mesg[32];
 	
 	soc[i] = fd;
-	writer(soc[i], login_mesg, 11);
+	write(soc[i], login_mesg, 11);
 	read(soc[i], name[i], 16);
 	
 	

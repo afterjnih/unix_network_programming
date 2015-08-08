@@ -35,7 +35,7 @@ main(int argc, char *argv[])
 	}
 	if((final = atoi(argv[2])) <= 0 || final > MAX_STAGES){
 		fprintf(stderr, "stage limit= %d\n", MAX_STAGES);
-		eixt(1);
+		exit(1);
 	}
 	
 	
@@ -46,7 +46,7 @@ main(int argc, char *argv[])
 	
 	
 	
-	maccept = mserver_maccept(soc_waiting, num, enter);
+	maxfd = mserver_maccept(soc_waiting, num, enter);
 	
 	
 	sessionman_init(num, final, maxfd);
