@@ -58,6 +58,7 @@
 		EBC7CEF21B796ACD000E0B3A /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = EBC7CEF11B796ACD000E0B3A /* server.c */; };
 		EBC7CEF41B7A314B000E0B3A /* session.c in Sources */ = {isa = PBXBuildFile; fileRef = EBC7CEF31B7A314B000E0B3A /* session.c */; };
 		EBC7CEF61B7AB776000E0B3A /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = EBC7CEF51B7AB776000E0B3A /* client.c */; };
+		EBC7CEFB1B7ABB69000E0B3A /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EBC7CEFA1B7ABB69000E0B3A /* Makefile */; };
 		EBFAAEC91B5DB34B002D2F1D /* chop_newline.c in Sources */ = {isa = PBXBuildFile; fileRef = EBFAAEBC1B5DB34B002D2F1D /* chop_newline.c */; };
 		EBFAAECA1B5DB34B002D2F1D /* chop_newline.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFAAEBD1B5DB34B002D2F1D /* chop_newline.o */; };
 		EBFAAECB1B5DB34B002D2F1D /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EBFAAEBE1B5DB34B002D2F1D /* Makefile */; };
@@ -154,6 +155,7 @@
 		EBC7CEF71B7AB915000E0B3A /* sessionman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sessionman.h; sourceTree = "<group>"; };
 		EBC7CEF81B7AB979000E0B3A /* mtalk2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtalk2.h; sourceTree = "<group>"; };
 		EBC7CEF91B7ABADA000E0B3A /* session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = session.h; sourceTree = "<group>"; };
+		EBC7CEFA1B7ABB69000E0B3A /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		EBFAAEBC1B5DB34B002D2F1D /* chop_newline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chop_newline.c; sourceTree = "<group>"; };
 		EBFAAEBD1B5DB34B002D2F1D /* chop_newline.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = chop_newline.o; sourceTree = "<group>"; };
 		EBFAAEBE1B5DB34B002D2F1D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
@@ -375,6 +377,7 @@
 				EBC7CEF71B7AB915000E0B3A /* sessionman.h */,
 				EBC7CEF81B7AB979000E0B3A /* mtalk2.h */,
 				EBC7CEF91B7ABADA000E0B3A /* session.h */,
+				EBC7CEFA1B7ABB69000E0B3A /* Makefile */,
 			);
 			path = mtalk2;
 			sourceTree = "<group>";
@@ -507,6 +510,7 @@
 				EB5B76531B5900C4003F4D97 /* main.c in Sources */,
 				EB98FA3C1B5B7DC1001D612B /* setup_server.c in Sources */,
 				EB98FA3A1B5B7DC1001D612B /* chop_newline.c in Sources */,
+				EBC7CEFB1B7ABB69000E0B3A /* Makefile in Sources */,
 				EBFAAED81B64B1E0002D2F1D /* session.c in Sources */,
 				EB5B76471B5900C4003F4D97 /* goban.c in Sources */,
 				EBC7CED61B7112B3000E0B3A /* Makefile in Sources */,
