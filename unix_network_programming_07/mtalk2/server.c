@@ -9,7 +9,7 @@
 
 
 #include <stdio.h>
-#include "mtalk.h"
+#include "mtalk2.h"
 #include "sessionman.h"
 
 main()

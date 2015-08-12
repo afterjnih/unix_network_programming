@@ -154,7 +154,7 @@ static void distribute()
 		if(talker[slot].flag == FREE)
 			continue;
 		sendto(soc, buf, len, 0, &talker[slot].address,
-					 sizeof(form));
+					 sizeof(from));
 	}
 }
 
@@ -169,7 +169,7 @@ static void ending()
 		if(talker[slot].flag == FREE)
 			continue;
 		sendto(soc, buf, 1, 0, &talker[slot].address,
-					 sizeouf(form));
+					 sizeof(from));
 	}
-	exit();
+	exit(1);
 }

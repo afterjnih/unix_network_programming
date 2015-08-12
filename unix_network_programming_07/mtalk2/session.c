@@ -42,7 +42,7 @@ static WINDOW *frame_send, *frame_recv;
 
 static void die();
 static int login();
-static int logout();
+static void logout();
 
 int session_setupclient(char *hostname, in_port_t port)
 
@@ -105,7 +105,7 @@ static int login()
 		sprintf(send_buf + 1, "%-10s-> ", myname);
 		input_buf = send_buf + 14;
 		printf("You have logged in.\n");
-		return -1;
+		return 1;
 	}else{
 		printf("recv_buf[0] == %u", (u_char)recv_buf[0]);
 		return -2;
@@ -202,7 +202,7 @@ void session_loop()
 		}
 		
 		
-		if(FD_ISSED(soc, &readOk)){
+		if(FD_ISSET(soc, &readOk)){
 			fromlen = sizeof(from);
 			n = recvfrom(soc, recv_buf, BUF_LEN, 0,
 									 &from, &fromlen);
@@ -233,7 +233,7 @@ static void die()
 	endwin();
 	logout();
 	close(soc);
-	exit();
+	exit(1);
 }
 
 

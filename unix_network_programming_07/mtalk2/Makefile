@@ -18,7 +18,7 @@ s:		server.o	sessionman.o
 			$(CC)	-o $@ $^
 
 c:		client.o	session.o
-			$(CC) -o $@ $(MYLIB) -lcurses
+			$(CC) -o $@ $^ $(MYLIB) -lcurses
 
 server.o:	mtalk2.h sessionman.h
 
