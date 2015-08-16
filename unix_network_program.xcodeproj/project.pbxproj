@@ -59,6 +59,16 @@
 		EBC7CEF41B7A314B000E0B3A /* session.c in Sources */ = {isa = PBXBuildFile; fileRef = EBC7CEF31B7A314B000E0B3A /* session.c */; };
 		EBC7CEF61B7AB776000E0B3A /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = EBC7CEF51B7AB776000E0B3A /* client.c */; };
 		EBC7CEFB1B7ABB69000E0B3A /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EBC7CEFA1B7ABB69000E0B3A /* Makefile */; };
+		EBD74CEB1B8152E900DE06F9 /* chop_newline.c in Sources */ = {isa = PBXBuildFile; fileRef = EBD74CE01B8152E900DE06F9 /* chop_newline.c */; };
+		EBD74CEC1B8152E900DE06F9 /* chop_newline.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD74CE11B8152E900DE06F9 /* chop_newline.o */; };
+		EBD74CED1B8152E900DE06F9 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EBD74CE21B8152E900DE06F9 /* Makefile */; };
+		EBD74CEE1B8152E900DE06F9 /* mylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD74CE31B8152E900DE06F9 /* mylib.a */; };
+		EBD74CEF1B8152E900DE06F9 /* setup_client.c in Sources */ = {isa = PBXBuildFile; fileRef = EBD74CE51B8152E900DE06F9 /* setup_client.c */; };
+		EBD74CF01B8152E900DE06F9 /* setup_client.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD74CE61B8152E900DE06F9 /* setup_client.o */; };
+		EBD74CF11B8152E900DE06F9 /* setup_mserver.c in Sources */ = {isa = PBXBuildFile; fileRef = EBD74CE71B8152E900DE06F9 /* setup_mserver.c */; };
+		EBD74CF21B8152E900DE06F9 /* setup_mserver.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD74CE81B8152E900DE06F9 /* setup_mserver.o */; };
+		EBD74CF31B8152E900DE06F9 /* setup_server.c in Sources */ = {isa = PBXBuildFile; fileRef = EBD74CE91B8152E900DE06F9 /* setup_server.c */; };
+		EBD74CF41B8152E900DE06F9 /* setup_server.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD74CEA1B8152E900DE06F9 /* setup_server.o */; };
 		EBFAAEC91B5DB34B002D2F1D /* chop_newline.c in Sources */ = {isa = PBXBuildFile; fileRef = EBFAAEBC1B5DB34B002D2F1D /* chop_newline.c */; };
 		EBFAAECA1B5DB34B002D2F1D /* chop_newline.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFAAEBD1B5DB34B002D2F1D /* chop_newline.o */; };
 		EBFAAECB1B5DB34B002D2F1D /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EBFAAEBE1B5DB34B002D2F1D /* Makefile */; };
@@ -156,6 +166,17 @@
 		EBC7CEF81B7AB979000E0B3A /* mtalk2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtalk2.h; sourceTree = "<group>"; };
 		EBC7CEF91B7ABADA000E0B3A /* session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = session.h; sourceTree = "<group>"; };
 		EBC7CEFA1B7ABB69000E0B3A /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		EBD74CE01B8152E900DE06F9 /* chop_newline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chop_newline.c; sourceTree = "<group>"; };
+		EBD74CE11B8152E900DE06F9 /* chop_newline.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = chop_newline.o; sourceTree = "<group>"; };
+		EBD74CE21B8152E900DE06F9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		EBD74CE31B8152E900DE06F9 /* mylib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mylib.a; sourceTree = "<group>"; };
+		EBD74CE41B8152E900DE06F9 /* mylib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mylib.h; sourceTree = "<group>"; };
+		EBD74CE51B8152E900DE06F9 /* setup_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = setup_client.c; sourceTree = "<group>"; };
+		EBD74CE61B8152E900DE06F9 /* setup_client.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = setup_client.o; sourceTree = "<group>"; };
+		EBD74CE71B8152E900DE06F9 /* setup_mserver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = setup_mserver.c; sourceTree = "<group>"; };
+		EBD74CE81B8152E900DE06F9 /* setup_mserver.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = setup_mserver.o; sourceTree = "<group>"; };
+		EBD74CE91B8152E900DE06F9 /* setup_server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = setup_server.c; sourceTree = "<group>"; };
+		EBD74CEA1B8152E900DE06F9 /* setup_server.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = setup_server.o; sourceTree = "<group>"; };
 		EBFAAEBC1B5DB34B002D2F1D /* chop_newline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chop_newline.c; sourceTree = "<group>"; };
 		EBFAAEBD1B5DB34B002D2F1D /* chop_newline.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = chop_newline.o; sourceTree = "<group>"; };
 		EBFAAEBE1B5DB34B002D2F1D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
@@ -177,8 +198,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD74CF01B8152E900DE06F9 /* setup_client.o in Frameworks */,
+				EBD74CF41B8152E900DE06F9 /* setup_server.o in Frameworks */,
 				EBC7CEE61B78EC0C000E0B3A /* chop_newline.o in Frameworks */,
 				EB98FA251B5A556E001D612B /* mylib.a in Frameworks */,
+				EBD74CEC1B8152E900DE06F9 /* chop_newline.o in Frameworks */,
+				EBD74CF21B8152E900DE06F9 /* setup_mserver.o in Frameworks */,
+				EBD74CEE1B8152E900DE06F9 /* mylib.a in Frameworks */,
 				EB5B76521B5900C4003F4D97 /* setup_server.o in Frameworks */,
 				EBC7CEE81B78EC0C000E0B3A /* mylib.a in Frameworks */,
 				EB98FA3D1B5B7DC1001D612B /* setup_server.o in Frameworks */,
@@ -204,6 +230,7 @@
 		EB5B75DA1B58FCB5003F4D97 = {
 			isa = PBXGroup;
 			children = (
+				EBD74CDC1B8152E900DE06F9 /* unix_network_programming_08 */,
 				EBC7CED71B78EC0C000E0B3A /* unix_network_programming_07 */,
 				EBFAAEBA1B5DB34B002D2F1D /* unix_network_programming_06 */,
 				EB98FA201B5A556E001D612B /* unix_network_programming_05 */,
@@ -400,6 +427,48 @@
 			path = mylib;
 			sourceTree = "<group>";
 		};
+		EBD74CDC1B8152E900DE06F9 /* unix_network_programming_08 */ = {
+			isa = PBXGroup;
+			children = (
+				EBD74CDD1B8152E900DE06F9 /* daemon */,
+				EBD74CDE1B8152E900DE06F9 /* data */,
+				EBD74CDF1B8152E900DE06F9 /* mylib */,
+			);
+			path = unix_network_programming_08;
+			sourceTree = "<group>";
+		};
+		EBD74CDD1B8152E900DE06F9 /* daemon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = daemon;
+			sourceTree = "<group>";
+		};
+		EBD74CDE1B8152E900DE06F9 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		EBD74CDF1B8152E900DE06F9 /* mylib */ = {
+			isa = PBXGroup;
+			children = (
+				EBD74CE01B8152E900DE06F9 /* chop_newline.c */,
+				EBD74CE11B8152E900DE06F9 /* chop_newline.o */,
+				EBD74CE21B8152E900DE06F9 /* Makefile */,
+				EBD74CE31B8152E900DE06F9 /* mylib.a */,
+				EBD74CE41B8152E900DE06F9 /* mylib.h */,
+				EBD74CE51B8152E900DE06F9 /* setup_client.c */,
+				EBD74CE61B8152E900DE06F9 /* setup_client.o */,
+				EBD74CE71B8152E900DE06F9 /* setup_mserver.c */,
+				EBD74CE81B8152E900DE06F9 /* setup_mserver.o */,
+				EBD74CE91B8152E900DE06F9 /* setup_server.c */,
+				EBD74CEA1B8152E900DE06F9 /* setup_server.o */,
+			);
+			path = mylib;
+			sourceTree = "<group>";
+		};
 		EBFAAEBA1B5DB34B002D2F1D /* unix_network_programming_06 */ = {
 			isa = PBXGroup;
 			children = (
@@ -507,10 +576,13 @@
 			files = (
 				EBC7CEF21B796ACD000E0B3A /* server.c in Sources */,
 				EB5B76611B590AAF003F4D97 /* client.c in Sources */,
+				EBD74CF31B8152E900DE06F9 /* setup_server.c in Sources */,
 				EB5B76531B5900C4003F4D97 /* main.c in Sources */,
 				EB98FA3C1B5B7DC1001D612B /* setup_server.c in Sources */,
 				EB98FA3A1B5B7DC1001D612B /* chop_newline.c in Sources */,
+				EBD74CED1B8152E900DE06F9 /* Makefile in Sources */,
 				EBC7CEFB1B7ABB69000E0B3A /* Makefile in Sources */,
+				EBD74CF11B8152E900DE06F9 /* setup_mserver.c in Sources */,
 				EBFAAED81B64B1E0002D2F1D /* session.c in Sources */,
 				EB5B76471B5900C4003F4D97 /* goban.c in Sources */,
 				EBC7CED61B7112B3000E0B3A /* Makefile in Sources */,
@@ -531,6 +603,7 @@
 				EB5B764B1B5900C4003F4D97 /* chop_newline.c in Sources */,
 				EBC7CEEB1B78EC0C000E0B3A /* setup_mserver.c in Sources */,
 				EBC7CED11B710E3E000E0B3A /* client.c in Sources */,
+				EBD74CEB1B8152E900DE06F9 /* chop_newline.c in Sources */,
 				EBC7CEE91B78EC0C000E0B3A /* setup_client.c in Sources */,
 				EBC7CEF61B7AB776000E0B3A /* client.c in Sources */,
 				EB5B76481B5900C4003F4D97 /* Makefile in Sources */,
@@ -545,6 +618,7 @@
 				EB5B764F1B5900C4003F4D97 /* setup_client.c in Sources */,
 				EBC7CEE51B78EC0C000E0B3A /* chop_newline.c in Sources */,
 				EB98FA0E1B5A1177001D612B /* server.c in Sources */,
+				EBD74CEF1B8152E900DE06F9 /* setup_client.c in Sources */,
 				EBFAAECF1B5DB34B002D2F1D /* setup_mserver.c in Sources */,
 				EB5B75E91B58FCD3003F4D97 /* main.c in Sources */,
 				EBC7CEE71B78EC0C000E0B3A /* Makefile in Sources */,
@@ -614,6 +688,7 @@
 					"$(PROJECT_DIR)/unix_network_programming_05/mylib",
 					"$(PROJECT_DIR)/unix_network_programming_06/mylib",
 					"$(PROJECT_DIR)/unix_network_programming_07/mylib",
+					"$(PROJECT_DIR)/unix_network_programming_08/mylib",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -661,6 +736,7 @@
 					"$(PROJECT_DIR)/unix_network_programming_05/mylib",
 					"$(PROJECT_DIR)/unix_network_programming_06/mylib",
 					"$(PROJECT_DIR)/unix_network_programming_07/mylib",
+					"$(PROJECT_DIR)/unix_network_programming_08/mylib",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
