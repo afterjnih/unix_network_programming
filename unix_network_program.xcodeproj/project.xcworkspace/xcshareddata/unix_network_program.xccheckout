@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>79961953-888C-4776-8AB4-CF10CB3E26AB</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>unix_network_program</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0F90F412F38C7517C18C7472AAFC0B35B9E1412F</key>
 		<string>https://github.com/afterjnih/unix_network_programming.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>unix_network_program.xcodeproj/project.xcworkspace</string>
+	<string>unix_network_program.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0F90F412F38C7517C18C7472AAFC0B35B9E1412F</key>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB22DAFD1B9743AC002A9D75 /* bb0d.c in Sources */ = {isa = PBXBuildFile; fileRef = EB22DAFC1B9743AC002A9D75 /* bb0d.c */; };
 		EB5B75E91B58FCD3003F4D97 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5B75E81B58FCD3003F4D97 /* main.c */; };
 		EB5B76461B5900C4003F4D97 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5B76341B5900C4003F4D97 /* client.c */; };
 		EB5B76471B5900C4003F4D97 /* goban.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5B76351B5900C4003F4D97 /* goban.c */; };
@@ -97,6 +98,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EB22DAFC1B9743AC002A9D75 /* bb0d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bb0d.c; sourceTree = "<group>"; };
 		EB5B75E51B58FCD3003F4D97 /* unix_network_program */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = unix_network_program; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5B75E81B58FCD3003F4D97 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EB5B76341B5900C4003F4D97 /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
@@ -440,6 +442,7 @@
 		EBD74CDD1B8152E900DE06F9 /* daemon */ = {
 			isa = PBXGroup;
 			children = (
+				EB22DAFC1B9743AC002A9D75 /* bb0d.c */,
 			);
 			path = daemon;
 			sourceTree = "<group>";
@@ -600,6 +603,7 @@
 				EBC7CEF41B7A314B000E0B3A /* session.c in Sources */,
 				EB5B76461B5900C4003F4D97 /* client.c in Sources */,
 				EB98FA351B5B7CE4001D612B /* setup_mserver.c in Sources */,
+				EB22DAFD1B9743AC002A9D75 /* bb0d.c in Sources */,
 				EB5B764B1B5900C4003F4D97 /* chop_newline.c in Sources */,
 				EBC7CEEB1B78EC0C000E0B3A /* setup_mserver.c in Sources */,
 				EBC7CED11B710E3E000E0B3A /* client.c in Sources */,
