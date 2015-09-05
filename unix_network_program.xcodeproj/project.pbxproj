@@ -72,6 +72,7 @@
 		EBD74CF41B8152E900DE06F9 /* setup_server.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD74CEA1B8152E900DE06F9 /* setup_server.o */; };
 		EBDAE0951B990E6200859EAE /* service.c in Sources */ = {isa = PBXBuildFile; fileRef = EBDAE0941B990E6200859EAE /* service.c */; };
 		EBDAE0981B99E7C500859EAE /* bbreader.c in Sources */ = {isa = PBXBuildFile; fileRef = EBDAE0971B99E7C500859EAE /* bbreader.c */; };
+		EBDAE09A1B99EA5100859EAE /* session.c in Sources */ = {isa = PBXBuildFile; fileRef = EBDAE0991B99EA5100859EAE /* session.c */; };
 		EBFAAEC91B5DB34B002D2F1D /* chop_newline.c in Sources */ = {isa = PBXBuildFile; fileRef = EBFAAEBC1B5DB34B002D2F1D /* chop_newline.c */; };
 		EBFAAECA1B5DB34B002D2F1D /* chop_newline.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFAAEBD1B5DB34B002D2F1D /* chop_newline.o */; };
 		EBFAAECB1B5DB34B002D2F1D /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EBFAAEBE1B5DB34B002D2F1D /* Makefile */; };
@@ -184,6 +185,7 @@
 		EBDAE0941B990E6200859EAE /* service.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = service.c; sourceTree = "<group>"; };
 		EBDAE0961B99E6E100859EAE /* bb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bb.h; sourceTree = "<group>"; };
 		EBDAE0971B99E7C500859EAE /* bbreader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bbreader.c; sourceTree = "<group>"; };
+		EBDAE0991B99EA5100859EAE /* session.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = session.c; sourceTree = "<group>"; };
 		EBFAAEBC1B5DB34B002D2F1D /* chop_newline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chop_newline.c; sourceTree = "<group>"; };
 		EBFAAEBD1B5DB34B002D2F1D /* chop_newline.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = chop_newline.o; sourceTree = "<group>"; };
 		EBFAAEBE1B5DB34B002D2F1D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
@@ -451,6 +453,7 @@
 				EBDAE0941B990E6200859EAE /* service.c */,
 				EBDAE0961B99E6E100859EAE /* bb.h */,
 				EBDAE0971B99E7C500859EAE /* bbreader.c */,
+				EBDAE0991B99EA5100859EAE /* session.c */,
 			);
 			path = daemon;
 			sourceTree = "<group>";
@@ -631,6 +634,7 @@
 				EB5B764D1B5900C4003F4D97 /* Makefile in Sources */,
 				EB5B764F1B5900C4003F4D97 /* setup_client.c in Sources */,
 				EBC7CEE51B78EC0C000E0B3A /* chop_newline.c in Sources */,
+				EBDAE09A1B99EA5100859EAE /* session.c in Sources */,
 				EB98FA0E1B5A1177001D612B /* server.c in Sources */,
 				EBD74CEF1B8152E900DE06F9 /* setup_client.c in Sources */,
 				EBFAAECF1B5DB34B002D2F1D /* setup_mserver.c in Sources */,
