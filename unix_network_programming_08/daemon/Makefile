@@ -32,7 +32,7 @@ bb9reader: bb9reader.o session.o
 $(objs):		bb.h
 
 clean:
-			$(RM) $(daemons) $(clients) $(onjs) *~
+			$(RM) $(daemons) $(clients) $(objs) *~
 
 ver0: bb0d bbreader
 

@@ -19,6 +19,7 @@
 
 #include "bb.h"
 
+#define MENUSTRING "1.呼び出し 2.休講 3.サークル 4.行事 9.終了 \n"
 extern void service(int soc, char *myname);
 
 main(int argc, char *argv[])
@@ -50,10 +51,8 @@ main(int argc, char *argv[])
 	listen(soc_waiting, 5);
 	fprintf(stderr, "successfully bound, now waiting.\n");
 	
-	
 	while(1){
 		soc = accept(soc_waiting, NULL, NULL);
-		
 		
 		if((pid = fork()) == (pid_t)0){
 			
@@ -62,6 +61,7 @@ main(int argc, char *argv[])
 			exit(0);
 		}
 		else{
+			
 		 
 		 close(soc);
 		 printf("My child [%d] now serving\n", (int)pid);

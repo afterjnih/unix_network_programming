@@ -22,7 +22,7 @@ main()
 	int soc = -1;
 	char hostname[HOSTNAME_LENGTH];
 	
-
+	
 	printf("input server's hostname: ");
 	fgets(hostname, HOSTNAME_LENGTH, stdin);
 	chop_newline(hostname, HOSTNAME_LENGTH);

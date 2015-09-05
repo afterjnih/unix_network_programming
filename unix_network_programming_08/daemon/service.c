@@ -10,11 +10,11 @@
 #include <fcntl.h>
 #include "bb.h"
 
-#define DATA_DIR "/mnt/fat32/work/socket/src/daemon/data"
+#define DATA_DIR "/vagrant/unix_network_program/unix_network_programming_08/data"
 #define MENUSTRING "1.呼び出し 2.休講 3.サークル 4.行事 9.終了 \n"
 
 
-static int process(int soc, int item)
+static int process(int soc, int item);
 
 
 void service(int soc, char *myname)
@@ -22,7 +22,7 @@ void service(int soc, char *myname)
 
 {
 	pid_t mypid;
-	char buf[BUF_LNEGTH];
+	char buf[BUF_LENGTH];
 	int item;
 	
 	mypid= (int)getpid();
@@ -33,7 +33,7 @@ void service(int soc, char *myname)
 	do{
 		write(soc, MENUSTRING, strlen(MENUSTRING));
 		read(soc, buf, 20);
-		sscan(buf, "%d", &item);
+		sscanf(buf, "%d", &item);
 	}
 	while(process(soc, item));
 	
@@ -47,7 +47,7 @@ static int process(int soc, int item)
 {
 	int fd;
 	int cnt;
-	char filename[FILENSME_LENGTH];
+	char filename[FILENAME_LENGTH];
 	char buf[BUF_LENGTH];
 	
 	if(item == 9)

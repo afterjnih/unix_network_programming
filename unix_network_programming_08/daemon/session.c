@@ -1,4 +1,5 @@
 //
+
 //  session.c
 //  unix_network_program
 //
@@ -9,7 +10,8 @@
 
 #include "bb.h"
 
-void session(int soc){
+void session(int soc)
+{
 	int width;
 	fd_set mask;
 	char buf[BUF_LENGTH];
@@ -18,7 +20,6 @@ void session(int soc){
 	FD_SET(0, &mask);
 	FD_SET(soc, &mask);
 	width = soc + 1;
-	
 	
 	while(1){
 		int cnt;
@@ -29,7 +30,7 @@ void session(int soc){
 		
 		if(FD_ISSET(soc, (fd_set *)&readOk)){
 			
-			cnt = read(0, buf, BUF_LENGTH);
+			cnt = read(soc, buf, BUF_LENGTH);
 			write(1, buf, cnt);
 		}
 		
@@ -39,7 +40,7 @@ void session(int soc){
 			write(soc, buf, cnt);
 			
 			
-			if(buf[0] == '9') exit();
+			if(buf[0] == '9') exit(0);
 		}
 	}
 }
