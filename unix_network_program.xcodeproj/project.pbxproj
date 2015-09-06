@@ -25,6 +25,7 @@
 		EB5B76531B5900C4003F4D97 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5B76451B5900C4003F4D97 /* main.c */; };
 		EB5B76611B590AAF003F4D97 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5B765F1B590AAF003F4D97 /* client.c */; };
 		EB5B76621B590AAF003F4D97 /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5B76601B590AAF003F4D97 /* server.c */; };
+		EB9892AB1B9BCCA500FCE769 /* bb1d.c in Sources */ = {isa = PBXBuildFile; fileRef = EB9892AA1B9BCCA500FCE769 /* bb1d.c */; };
 		EB98FA0E1B5A1177001D612B /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = EB98FA0D1B5A1177001D612B /* server.c */; };
 		EB98FA101B5A1297001D612B /* mylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB98FA0F1B5A1297001D612B /* mylib.a */; };
 		EB98FA121B5A1385001D612B /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = EB98FA111B5A1385001D612B /* client.c */; };
@@ -123,6 +124,7 @@
 		EB5B76451B5900C4003F4D97 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EB5B765F1B590AAF003F4D97 /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
 		EB5B76601B590AAF003F4D97 /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
+		EB9892AA1B9BCCA500FCE769 /* bb1d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bb1d.c; sourceTree = "<group>"; };
 		EB98FA0D1B5A1177001D612B /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
 		EB98FA0F1B5A1297001D612B /* mylib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mylib.a; sourceTree = "<group>"; };
 		EB98FA111B5A1385001D612B /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
@@ -461,6 +463,7 @@
 				EBDAE0971B99E7C500859EAE /* bbreader.c */,
 				EBDAE0991B99EA5100859EAE /* session.c */,
 				EBDAE09B1B9A82C300859EAE /* Makefile */,
+				EB9892AA1B9BCCA500FCE769 /* bb1d.c */,
 			);
 			path = daemon;
 			sourceTree = "<group>";
@@ -655,6 +658,7 @@
 				EBC7CEF01B78ECF0000E0B3A /* sessionman.c in Sources */,
 				EBFAAED61B64AD66002D2F1D /* server.c in Sources */,
 				EBC7CEED1B78EC0C000E0B3A /* setup_server.c in Sources */,
+				EB9892AB1B9BCCA500FCE769 /* bb1d.c in Sources */,
 				EBFAAECB1B5DB34B002D2F1D /* Makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
